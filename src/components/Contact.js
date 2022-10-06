@@ -1,18 +1,17 @@
-
 function Contact() {
   return (
-    <div className="container mx-auto max-w-7xl p-5">
-      <div className="bg-[#DEE2E6] rounded-3xl px-16 py-10 flex justify-between gap-6">
-        <div>
-          <h2 className="text-[#212529] font-bold text-5xl mb-6">Contact Us?</h2>
-          <p className="text-[#495057] text-2xl">Feel free to write down your questions, suggestion, or requests to us.</p>
+    <div className="container p-5 mx-auto max-w-7xl">
+      <div className="bg-[#FFE3E3] rounded-3xl xl:px-16 px-4 py-10 flex flex-col md:flex-row justify-between gap-6 ">
+        <div className="flex-2">
+          <h2 className="text-[#212529] font-bold xl:text-5xl mb-6">Contact Us?</h2>
+          <p className="text-[#343A40] xl:text-2xl">Feel free to write down your questions, suggestion, or requests to us.</p>
           <form className="mt-10">
-            <div className="flex gap-10">
-              <input type='text' className="w-full p-6  rounded-3xl text-2xl" placeholder="Full name*"></input>
-              <input type='text' className="w-full p-6  rounded-3xl text-2xl" placeholder="Email*"></input>
+            <div className="flex flex-col gap-6 lg:gap-10 md:flex-row">
+              <input type='text' className="w-full p-4 xl:text-2xl rounded-3xl bg-[#FFF5F5]" placeholder="Full name*"></input>
+              <input type='text' className="w-full p-4 xl:text-2xl rounded-3xl bg-[#FFF5F5]" placeholder="Email*"></input>
             </div>
-            <textarea name="" id="" rows="5" className="w-full p-6 my-10 rounded-3xl text-2xl" placeholder="Your message*"></textarea>
-            <button className="gap-3 text-2xl font-semibold bg-[#F03E3E] rounded-xl text-white flex items-center py-3 px-6">
+            <textarea name="" id="" rows="5" className="w-full p-4 lg:my-10 my-6 xl:text-2xl rounded-3xl bg-[#FFF5F5]" placeholder="Your message*"></textarea>
+            <button className="gap-3 xl:text-2xl font-semibold bg-[#F03E3E] rounded-xl text-white flex items-center py-3 px-6">
               <span>
                 Send
               </span>
@@ -22,7 +21,10 @@ function Contact() {
             </button>
           </form>
         </div>
-        <div className="bg-black h-[600px] w-[350px]"></div>
+        <div className="flex items-end justify-end">
+
+          <img src={require("../assets/BalloonConfetti.png")} alt="confetti" className="w-[250px] md:w-[350px]"></img>
+        </div>
       </div>
     </div>
   );
