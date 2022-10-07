@@ -1,7 +1,7 @@
 
 function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <div id='home' className="overflow-x-hidden">
       <div>
         <div className="px-5">
           <div className="container bg-[#F03E3E] rounded-t-3xl relative flex flex-col items-center justify-around px-6 py-5 pt-8 mx-auto text-white md:flex-row max-w-7xl">
