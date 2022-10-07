@@ -1,10 +1,10 @@
 
 function Home() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <div>
-        <div className="bg-[#F03E3E] py-10">
-          <div className="container relative flex flex-col items-center justify-around px-6 py-5 mx-auto text-white md:flex-row max-w-7xl">
+        <div className="px-5">
+          <div className="container bg-[#F03E3E] rounded-t-3xl relative flex flex-col items-center justify-around px-6 py-5 pt-8 mx-auto text-white md:flex-row max-w-7xl">
             <div className="max-w-xl">
               <h1 className="text-2xl font-bold xl:text-5xl lg:text-[32px]">Kathas Entertainment</h1>
               <h2 className="mt-6 text-base font-semibold xl:mt-12 md:mt-8 lg:mt-9 xl:text-2xl md:text-lg">We create awesome games world
@@ -32,10 +32,14 @@ function Home() {
               </video>
               <img src={require('../assets/Kathas-logo.png')} alt="" className='absolute top-0 left-0 w-full h-full' />
             </div>
-            <img src={require('../assets/Confetti.png')} alt="" className='absolute bottom-0 left-0 transform -translate-x-20 rotate-90 w-[200px] h-[175px]' />
-            <img src={require('../assets/Confetti.png')} alt="" className='absolute bottom-0 right-0 transform translate-x-8 w-[200px] h-[175px]' />
+            <img src={require('../assets/Confetti.png')} alt="" className='absolute bottom-0 left-0 transform -translate-x-10 translate-y-8 rotate-90 xl:w-[200px] xl:h-[175px] w-[140px] h-[122px]' />
+            <img src={require('../assets/Confetti.png')} alt="" className='absolute bottom-0 right-0 transform translate-y-8 translate-x-8 xl:w-[200px] xl:h-[175px] w-[140px] h-[122px]' />
 
           </div>
+          <svg className='container w-full mx-auto max-w-7xl' viewBox="0 0 1240 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 8.4C0 13.4 3.2 17.9 7.9 19.6C15.9 22.6 31.8 27.8 47.3 50.4C63.5 73 79.2 111.8 95.5 134.4C111.2 157 127.4 162.2 142.9 140C158.9 117.6 174.8 67.2 191.1 53.2C206.6 39.4 222.1 61.4 238.5 67.2C254.3 73 270.4 61.4 285.9 50.4C302.1 39.4 317.8 27.8 334.1 22.4C349.8 16.8 366 16.8 381.5 36.4C397.4 56.2 413.4 95 428.9 95.2C445.2 95 460.8 56.2 477.1 58.8C492.9 61.4 509 106.6 524.5 126C540.6 145.4 556.4 140.2 572.7 123.2C588.3 106.6 604.6 78.2 620.1 56C636 33.6 652 16.8 667.5 14C683.7 11 699.4 22.6 715.7 47.6C731.4 73 747.6 111.8 763.1 120.4C779.1 128.6 795 106.6 811.3 84C826.8 61.4 842.3 39.4 858.7 44.8C874.5 50.4 890.6 84 906.1 86.8C922.3 89.8 938 61.4 954.3 58.8C970 56.2 986.2 78.2 1001.7 84C1017.6 89.8 1033.6 78.2 1049.1 64.4C1065.4 50.4 1081 33.6 1097.3 42C1113.1 50.4 1129.2 84 1144.7 106.4C1160.8 128.6 1176.6 140.2 1192.9 148.4C1208.5 157 1224.8 162.2 1232.5 165.2C1236.3 166.6 1240.3 163.8 1240.3 159.7V0H1232.4C1224.4 0 1208.5 0 1193 0C1176.8 0 1161.1 0 1144.8 0C1129.1 0 1112.9 0 1097.4 0C1081.4 0 1065.5 0 1049.2 0C1033.7 0 1018.2 0 1001.8 0C986 0 969.9 0 954.4 0C938.2 0 922.5 0 906.2 0C890.5 0 874.3 0 858.8 0C842.9 0 826.9 0 811.4 0C795.1 0 779.5 0 763.2 0C747.4 0 731.3 0 715.8 0C699.7 0 683.9 0 667.6 0C652 0 635.7 0 620.2 0C604.3 0 588.3 0 572.8 0C556.6 0 540.9 0 524.6 0C508.9 0 492.7 0 477.2 0C461.2 0 445.3 0 429 0C413.5 0 398 0 381.6 0C365.8 0 349.7 0 334.2 0C318 0 302.3 0 286 0C270.3 0 254.1 0 238.6 0C222.7 0 206.7 0 191.2 0C174.9 0 159.3 0 143 0C127.2 0 111.1 0 95.6 0C79.5 0 63.7 0 47.4 0C31.8 0 15.5 0 7.8 0H0V8.4Z" fill="#F03E3E" />
+            </svg>
+
         </div>
       </div>
 

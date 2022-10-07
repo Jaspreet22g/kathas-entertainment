@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <footer className="bg-[#E03131] w-full mt-24 py-10">
+    <footer className="bg-[#E03131] w-full mt-24 py-10 overflow-x-hidden">
       <div className="container flex flex-col justify-between gap-6 p-5 px-5 mx-auto md:items-center max-w-7xl md:flex-row">
         <div className="flex flex-col gap-6 md:items-center md:flex-row">
           <svg width="52" className="mr-20" height="64" viewBox="0 0 52 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +51,7 @@ function Footer() {
             </a>
           </div>
         </div>
-        <span className="text-lg font-bold text-white"><span className="mr-1 font-base">©</span>Copyright 2022</span>
+        <span className="text-lg font-semibold text-white"><span className="mr-1 font-base">©</span>Copyright 2022</span>
 
       </div>
     </footer>

@@ -32,10 +32,10 @@ function Nav() {
             </clipPath>
           </defs>
         </svg>
-        <div className="gap-16 flex items-center text-[#212529] font-bold xl:text-2xl [&>a:hover]:text-[#E03131] [&>a]:transition-all">
-          <a href="$">Games</a>
-          <a href="$">About</a>
-          <a href="$">Contact Us</a>
+        <div className="xl:gap-16 gap-4 md:gap-8 flex items-center text-[#212529] font-bold xl:text-2xl lg:text-[34px] text-lg [&>a:hover]:text-[#E03131] [&>a]:transition-all">
+          <a href="#games">Games</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact Us</a>
         </div>
       </div>
     </nav>
