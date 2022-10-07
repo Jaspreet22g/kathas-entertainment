@@ -82,14 +82,6 @@ function Nav() {
           >
             Games
           </div>
-          <a href='#games'
-            onClick={() => {
-              navigate('/');
-              scrollToTargetAdjusted('#games');
-            }}
-          >
-            Games a
-          </a>
           <div
             onClick={() => {
               navigate('/');
