@@ -105,7 +105,7 @@ function Games() {
             </div>
           </div>
           <div>
-            <div class="content rounded-3xl overflow-hidden border-2 border-[#212529]">
+            <div class="content rounded-3xl overflow-hidden lg:border-2 border-[#212529]">
               <div class="content-overlay"></div>
               <img class="content-image" src={require('../assets/CubeShooterRun3D.png')} alt="Cube Shooter Run 3D" />
               <div class="content-details fadeIn-top flex flex-col justify-between md:p-8  p-3 lg:p-8 xl:p-3">

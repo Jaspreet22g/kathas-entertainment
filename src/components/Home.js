@@ -26,7 +26,7 @@ function Home() {
               </svg>
             </div> */}
             <div className='relative mt-9 md:mt-0 xl:w-[360px] xl:h-[402px] lg:h-[314px] lg:w-[283px] md:w-[180px] md:h-[199px] w-[206] h-[229px]'>
-              <video autoPlay playsInline muted loop preload="true" className='w-[98%] h-[98%]'>
+              <video autoPlay playsInline muted loop preload="true" poster={require('../assets/Kathas-Thumbnail.png')} className='w-[98%] h-[99%]'>
                 <source src={require('../assets/logo-video.mp4')} />
                 <source src={require('../assets/logo-video.webm')} />
               </video>
