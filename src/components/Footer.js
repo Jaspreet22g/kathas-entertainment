@@ -1,10 +1,10 @@
-
+import { Link } from 'react-router-dom'
 function Footer() {
   return (
-    <footer className="bg-[#E03131] w-full mt-24 py-10 overflow-x-hidden">
-      <div className="container flex flex-col justify-between gap-6 p-5 px-5 mx-auto md:items-center max-w-7xl md:flex-row">
-        <div className="flex flex-col gap-6 md:items-center md:flex-row">
-          <svg width="52" className="mr-20" height="64" viewBox="0 0 52 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <footer className="bg-[#E03131] w-full mt-24 pt-6 pb-4 lg:py-8 overflow-x-hidden">
+      <div className="container flex flex-row justify-between gap-6 p-5 px-5 mx-auto md:items-center max-w-7xl">
+        <div className="flex flex-col gap-10 xl:gap-20 lg:gap-14 md:items-center md:flex-row">
+          <svg width="52"  height="64" viewBox="0 0 52 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_36_1521)">
               <path d="M52 28.7561C52 25.0149 51.209 21.7637 49.6417 19.0173C48.0744 16.256 45.8772 14.133 43.0648 12.6484C41.9662 12.0695 40.809 11.5944 39.5786 11.2529C38.3921 10.9115 37.1617 10.674 35.858 10.5403C35.8287 10.5403 35.7994 10.5403 35.7701 10.5403H23.8175C23.5831 10.5403 23.3487 10.6591 23.2169 10.867L20.5656 14.905L15.8783 22.0458L14.5454 24.0648C14.4721 24.1687 14.311 24.1242 14.311 23.9906V13.9697C14.311 13.7025 14.2085 13.4501 14.018 13.2571L1.23042 0.222556C0.776338 -0.252507 0 0.0740989 0 0.727312V57.4084C0 58.0616 0.776338 58.3882 1.23042 57.928L14.0473 44.8934C14.2377 44.7004 14.3403 44.448 14.3403 44.1808V33.284C14.3403 33.1504 14.5014 33.1059 14.5746 33.2098L15.4828 34.7092L20.7854 43.4534L23.0997 47.2687C23.2316 47.4914 23.4659 47.6102 23.7149 47.6102H35.6383C35.6676 47.6102 35.6969 47.6102 35.7262 47.6102C37.1324 47.4617 38.4654 47.1648 39.7544 46.7343C40.4135 46.5116 41.058 46.2592 41.7025 45.9623C44.222 44.7746 46.302 43.1713 47.9572 41.1226C49.5831 39.1184 50.6524 36.847 51.1944 34.3232C51.209 34.249 51.1504 34.1599 51.0625 34.1599H36.4732C36.2096 34.1599 35.9752 34.3084 35.8434 34.5311C35.1403 35.7039 34.0856 36.2977 32.6794 36.2977C32.3718 36.2977 32.0642 36.268 31.7859 36.2086C31.0682 36.075 30.4676 35.7633 29.9696 35.2882C29.3837 34.7092 28.9882 33.7146 28.8124 32.2894L28.7977 32.1854C28.7538 31.8588 29.0028 31.5768 29.3251 31.5768H51.5606C51.6192 31.5768 51.6777 31.5322 51.6924 31.4728C51.8975 30.5376 52 29.632 52 28.7561ZM29.8377 25.7275C29.3397 25.7275 28.9589 25.2376 29.1054 24.7477C29.5448 23.2038 30.453 22.2536 31.8445 21.8825C32.3132 21.734 32.8406 21.6747 33.4118 21.6747C34.569 21.6747 35.5358 22.0013 36.3121 22.6693C36.9127 23.1889 37.2789 23.9164 37.4107 24.8516C37.4839 25.3119 37.1177 25.7424 36.649 25.7424H29.8377V25.7275Z" fill="#F8F9FA" />
               <path d="M0.893535 62.5895L2.21184 63.9999H1.87494L0.659169 62.6786V63.9999H0.366211V61.1792H0.644521V62.5005L1.8603 61.1792H2.1972L0.893535 62.5895Z" fill="#F8F9FA" />
@@ -33,7 +33,7 @@ function Footer() {
               </clipPath>
             </defs>
           </svg>
-          <div className="flex gap-9">
+          <div className="flex gap-3 md:gap-9">
             <a href="#" target="_blank">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M27 2H5C4.20435 2 3.44129 2.31607 2.87868 2.87868C2.31607 3.44129 2 4.20435 2 5L2 27C2 27.7956 2.31607 28.5587 2.87868 29.1213C3.44129 29.6839 4.20435 30 5 30H13.5781V20.4806H9.64062V16H13.5781V12.585C13.5781 8.70062 15.8906 6.555 19.4325 6.555C21.1287 6.555 22.9025 6.8575 22.9025 6.8575V10.67H20.9481C19.0225 10.67 18.4219 11.865 18.4219 13.0906V16H22.7206L22.0331 20.4806H18.4219V30H27C27.7956 30 28.5587 29.6839 29.1213 29.1213C29.6839 28.5587 30 27.7956 30 27V5C30 4.20435 29.6839 3.44129 29.1213 2.87868C28.5587 2.31607 27.7956 2 27 2Z" fill="#F8F9FA" />
@@ -51,7 +51,11 @@ function Footer() {
             </a>
           </div>
         </div>
-        <span className="text-lg font-semibold text-white"><span className="mr-1 font-base">©</span>Copyright 2022</span>
+        <div className='flex flex-col justify-end gap-6 text-sm lg:gap-8 lg:flex-row md:text-lg'>
+          <a href="mailto:mail@kathasentertainment.com" className='font-medium text-white underline'>Email</a>
+          <Link to='/privacy-policy' className="font-medium text-white underline">Privacy Policy</Link>
+          <span className="font-medium text-white"><span className="mr-1 font-base">©</span>Copyright 2022</span>
+        </div>
 
       </div>
     </footer>
