@@ -272,3 +272,10 @@
   padding: 10px 0;
   transition-delay: 2s;
 }
+
+#menu > .active{
+  color: #E03131;
+}
+.menu > .active{
+  color: #E03131;
+}

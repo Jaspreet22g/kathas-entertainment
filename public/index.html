@@ -5,8 +5,8 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="Kathas Entertainment"
+      content="We create awesome games world with our games."
     />
     <link
       rel="stylesheet"
@@ -35,4 +35,29 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    window.onscroll = () => {
+      var current = "";
+      
+      document.querySelectorAll('section').forEach((section) => {
+        const sectionTop = section.offsetTop;
+        if (pageYOffset >= sectionTop - (section.offsetHeight /2)) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      document.querySelectorAll('.menu>div').forEach((li) => {
+        li.classList.remove("active");
+        if (li.classList.contains(current)) {
+          li.classList.add("active");
+        }
+      });
+      document.querySelectorAll('#menu>div').forEach((li) => {
+        li.classList.remove("active");
+        if (li.classList.contains(current)) {
+          li.classList.add("active");
+        }
+      });
+    };
+  </script>
 </html>

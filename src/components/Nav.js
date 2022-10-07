@@ -1,7 +1,5 @@
 import { Link, useNavigate, useMatch } from 'react-router-dom';
 
-
-
 function Nav() {
   const navigate = useNavigate();
   const isPrivacyPolicy = useMatch('/privacy-policy');
@@ -37,7 +35,7 @@ function Nav() {
 
   return (
     <nav id="nav" className=" sticky top-0 left-0 right-0 bg-[#F1F3F5] z-50">
-      <div className="container flex items-center justify-between px-5 py-1 mx-auto lg:p-5 max-w-7xl">
+      <div className="container flex items-center justify-between px-5 py-1 mx-auto lg:py-3 max-w-7xl">
         <Link to='/' className='z-50'>
           <svg width="52" height="64" viewBox="0 0 52 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_36_753)">
@@ -87,11 +85,12 @@ function Nav() {
               <div class="stick stick-2"></div>
               <div class="stick stick-3"></div>
             </div>
-            <div className="xl:gap-16 lg:flex gap-4 md:gap-8 hidden items-center text-[#212529] font-bold xl:text-2xl lg:text-[34px] text-lg [&>div:hover]:text-[#E03131] [&>div]:cursor-pointer [&>div]:transition-all [&>div]:duration-300">
+            <div className="lg:gap-16 menu lg:flex gap-4 md:gap-8 hidden items-center text-[#212529] font-bold lg:text-2xl text-lg [&>div:hover]:text-[#E03131] [&>div]:cursor-pointer [&>div]:transition-all [&>div]:duration-300">
               <div
                 onClick={() => {
                   scrollToTargetAdjusted('#games');
                 }}
+                className='games'
               >
                 Games
               </div>
@@ -99,6 +98,7 @@ function Nav() {
                 onClick={() => {
                   scrollToTargetAdjusted('#about');
                 }}
+                className='about'
               >
                 About
               </div>
@@ -106,6 +106,7 @@ function Nav() {
                 onClick={() => {
                   scrollToTargetAdjusted('#contact');
                 }}
+                className='contact'
               >
                 Contact Us
               </div>
@@ -113,19 +114,31 @@ function Nav() {
           </>}
       </div>
 
-      <div id="menu" className=" ld:hidden flex flex-col justify-center pl-5 text-5xl gap-8 [&>div]:cursor-pointer text-[#212529] font-bold [&>div:hover]:text-[#E03131] [&>div]:transition-all">
+      <div id="menu" className="menu lg:hidden flex flex-col justify-center pl-5 text-5xl gap-8 [&>div]:cursor-pointer text-[#212529] font-bold [&>div:hover]:text-[#E03131] [&>div]:transition-all">
         <div onClick={() => {
           toggleNav();
           scrollToTargetAdjusted('#games');
-        }}>Games</div>
+        }}
+          className='games'
+        >
+          Games
+        </div>
         <div onClick={() => {
           toggleNav();
           scrollToTargetAdjusted('#about');
-        }}>About</div>
+        }}
+          className='about'
+        >
+          About
+        </div>
         <div onClick={() => {
           toggleNav();
           scrollToTargetAdjusted('#contact');
-        }}>Contact Us</div>
+        }}
+          className='contact'
+        >
+          Contact Us
+        </div>
       </div>
     </nav>
   );
