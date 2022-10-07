@@ -31,9 +31,9 @@ function PrivacyPolicy() {
         <br></br>
         <ul className="ml-10 list-disc">
           <li><a href="https://www.google.com/policies/privacy/" className="underline">Google Play Services</a></li>
-          <li><a href="https://www.google.com/policies/privacy/" className="underline">AdMob</a></li>
-          <li><a href="https://www.google.com/policies/privacy/" className="underline">Unity</a></li>
-          <li><a href="https://www.google.com/policies/privacy/" className="underline">Adjust</a></li>
+          <li><a href="https://support.google.com/admob/answer/6128543" className="underline">AdMob</a></li>
+          <li><a href="https://unity3d.com/legal/privacy-policy" className="underline">Unity</a></li>
+          <li><a href="https://www.adjust.com/terms/privacy-policy" className="underline">Adjust</a></li>
         </ul>
         <h3 className="text-[#212529] font-semibold text-xl mt-6 mb-3">Log Data</h3>
 
