@@ -61,8 +61,8 @@ function Games() {
     ]
   };
   return (
-    <div className="container py-10 mx-auto overflow-x-hidden max-w-7xl">
-      <h4 id="games" className="mb-2 px-5 lg:mb-3 xl:mb-4 xl:text-[32px] lg:text-xl text-[#F03E3E] font-semibold text-base">Our Games</h4>
+    <section id="games" className="container py-10 mx-auto overflow-x-hidden max-w-7xl">
+      <h4  className="mb-2 px-5 lg:mb-3 xl:mb-4 xl:text-[32px] lg:text-xl text-[#F03E3E] font-semibold text-base">Our Games</h4>
       <h3 className="text-[#212529] px-5 font-semibold xl:text-5xl lg:text-[34px] text-xl xl:mb-16 mb-10">Available on Google PlayStore</h3>
       <div className='w-full mx-auto slider-parent' >
         <Slider {...settings} >
@@ -190,7 +190,7 @@ function Games() {
         </Slider>
 
       </div>
-    </div>
+    </section>
   );
 }
 
