@@ -52,8 +52,8 @@ function Home() {
         </div>
         <div className="flex-1">
           <h4 className="mb-2 lg:mb-3 xl:mb-4 xl:text-[32px] lg:text-xl text-[#F03E3E] font-semibold text-base">Our Philosophy</h4>
-          <h3 className="text-[#212529] font-semibold xl:text-5xl lg:text-[34px] text-xl xl:mb-12 lg:mb-6 mb-4">Hardwork, creativity,
-            and awesomeness</h3>
+          <h3 className="text-[#212529] font-semibold xl:text-5xl lg:text-[34px] text-xl xl:mb-12 lg:mb-6 mb-4">Hardwork, Creativity,
+            and Awesomeness</h3>
           <p className="text-[#495057] xl:text-xl lg:text-base text-sm">We used this secret recipes to create games
             which are awesome.</p>
         </div>
