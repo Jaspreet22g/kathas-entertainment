@@ -69,8 +69,8 @@ function Games() {
         <Slider {...settings} >
           <div>
             <div class="content rounded-3xl overflow-hidden">
-              <div class="content-overlay"></div>
-              <img class="content-image" src={require('../assets/AnimalStack.png')} alt="Animal Stack" />
+              <div class="content-overlay rounded-3xl"></div>
+              <img class="content-image" src={require('../assets/AnimalStack.png')} alt="Animal Stack"/>
               <div class="content-details fadeIn-top flex flex-col justify-between md:p-8  p-3 lg:p-8 xl:p-3">
                 <div className='w-full'>
                   <h2 className='mb-3 text-2xl font-bold text-white lg:text-3xl xl:text-2xl'>Animal Stack</h2>
@@ -88,7 +88,7 @@ function Games() {
           </div>
           <div>
             <div class="content rounded-3xl overflow-hidden">
-              <div class="content-overlay"></div>
+              <div class="content-overlay rounded-3xl"></div>
               <img class="content-image" src={require('../assets/CubeShifter.png')} alt="Cube Shifter" />
               <div class="content-details fadeIn-top flex flex-col justify-between md:p-8  p-3 lg:p-8 xl:p-3">
                 <div className='w-full'>
@@ -107,7 +107,7 @@ function Games() {
           </div>
           <div>
             <div class="content rounded-3xl overflow-hidden lg:border-2 border-[#212529]">
-              <div class="content-overlay"></div>
+              <div class="content-overlay rounded-3xl"></div>
               <img class="content-image" src={require('../assets/CubeShooterRun3D.png')} alt="Cube Shooter Run 3D" />
               <div class="content-details fadeIn-top flex flex-col justify-between md:p-8  p-3 lg:p-8 xl:p-3">
                 <div className='w-full'>
@@ -126,7 +126,7 @@ function Games() {
           </div>
           <div>
             <div class="content rounded-3xl overflow-hidden">
-              <div class="content-overlay"></div>
+              <div class="content-overlay rounded-3xl"></div>
               <img class="content-image" src={require('../assets/MagicalWand3D.png')} alt="Magical Wand 3D" />
               <div class="content-details fadeIn-top flex flex-col justify-between md:p-8  p-3 lg:p-8 xl:p-3">
                 <div className='w-full'>
@@ -147,7 +147,7 @@ function Games() {
           </div>
           <div>
             <div class="content rounded-3xl overflow-hidden">
-              <div class="content-overlay"></div>
+              <div class="content-overlay rounded-3xl"></div>
               <img class="content-image" src={require('../assets/ReachTheTop.png')} alt="Reach The Top" />
               <div class="content-details fadeIn-top flex flex-col justify-between md:p-8  p-3 lg:p-8 xl:p-3">
                 <div className='w-full'>
@@ -169,7 +169,7 @@ function Games() {
           </div>
           <div>
             <div class="content rounded-3xl overflow-hidden">
-              <div class="content-overlay"></div>
+              <div class="content-overlay rounded-3xl"></div>
               <img class="content-image" src={require('../assets/SnowBallFight3D.png')} alt="Snow Ball Fight 3D" />
               <div class="content-details fadeIn-top flex flex-col justify-between md:p-8  p-3 lg:p-8 xl:p-3">
                 <div className='w-full'>
