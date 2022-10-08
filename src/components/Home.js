@@ -25,7 +25,7 @@ function Home() {
                 <rect x="0" y="0" width="100%" height="100%"/>
               </svg>
             </div> */}
-            <div className='relative mt-9 md:mt-0 xl:w-[360px] xl:h-[402px] lg:h-[314px] lg:w-[283px] md:w-[180px] md:h-[199px] w-[206px] h-[229px]'>
+            <div className='relative flex justify-center items-center mt-9 md:mt-0 xl:w-[360px] xl:h-[402px] lg:h-[314px] lg:w-[283px] md:w-[180px] md:h-[199px] w-[206px] h-[229px]'>
               <video autoPlay playsInline muted loop preload="true" poster={require('../assets/Kathas-Thumbnail.png')} style={{width:'calc(100% - 1px)', height:'calc(100% - 1px)'}}>
                 <source src={require('../assets/logo-video.mp4')} />
                 <source src={require('../assets/logo-video.webm')} />
