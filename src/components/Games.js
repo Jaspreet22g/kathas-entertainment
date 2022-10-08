@@ -6,12 +6,12 @@ function Arrow(props) {
       onClick={onClick}
     >
       {props.type === "next" ?
-        <span className='bg-[#F03E3E] absolute top-[40%]  transition-all right-[-60px] hover:bg-[#C92A2A] cursor-pointer inline-block p-2 rounded-xl'>
+        <span className='bg-[#F03E3E] next-button absolute top-[40%]  transition-all z-[45] right-[-30px] hover:bg-[#C92A2A] cursor-pointer inline-block p-2 rounded-xl'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className='w-5 h-5 lg:w-8 lg:h-8'>
             <path fill='white' d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
           </svg>
         </span> :
-        <span className='bg-[#F03E3E] transition-all absolute top-[40%] left-[-60px] hover:bg-[#C92A2A] cursor-pointer inline-block p-2 rounded-xl'>
+        <span className='bg-[#F03E3E] prev-button transition-all absolute top-[40%] z-[45] left-[-30px] hover:bg-[#C92A2A] cursor-pointer inline-block p-2 rounded-xl'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className='w-5 h-5 transform rotate-180 lg:w-8 lg:h-8'>
             <path fill='white' d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" /></svg>
         </span>}
@@ -64,7 +64,7 @@ function Games() {
     <section id="games" className="container py-10 mx-auto overflow-x-hidden max-w-7xl">
       <h4  className="mb-2 px-5 lg:mb-3 xl:mb-4 xl:text-[32px] lg:text-xl text-[#F03E3E] font-semibold text-base">Our Games</h4>
       <h3 className="text-[#212529] px-5 font-semibold xl:text-5xl lg:text-[34px] text-xl xl:mb-16 mb-10">Available on Google PlayStore</h3>
-      <div className='w-full mx-auto slider-parent' >
+      <div className='relative w-full mx-auto slider-parent' >
         <Slider {...settings} >
           <div>
             <div class="content rounded-3xl overflow-hidden">

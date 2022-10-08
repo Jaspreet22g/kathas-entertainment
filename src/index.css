@@ -18,7 +18,7 @@
 }
 @media (min-width: 1024px) {
   .slider-parent {
-    width: calc(100% - 128px);
+    width: calc(100% - 96px);
   }
 }
 .content .content-overlay {
@@ -273,9 +273,34 @@
   transition-delay: 2s;
 }
 
-#menu > .active{
-  color: #E03131;
+#menu > .active {
+  color: #e03131;
 }
-.menu > .active{
-  color: #E03131;
+.menu > .active {
+  color: #e03131;
+}
+
+.slider-parent:before {
+  position: absolute;
+  display: block;
+  width: 50px;
+  content: '';
+  top: 0;
+  z-index: 40;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient( to right, #F1F3F5 20%, rgba(255, 255, 255, 0) 80% );
+}
+
+.slider-parent:after {
+  position: absolute;
+  display: block;
+  width: 50px;
+  z-index: 40;
+  right: 0px;
+  content: "";
+  top: 0;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to left, #f1f3f5 20%, rgba(255, 255, 255, 0) 80%);
 }
