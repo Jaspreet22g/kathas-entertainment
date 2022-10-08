@@ -44,7 +44,12 @@ function Home() {
       </div>
 
       <div className="flex flex-col-reverse gap-6 px-6 mx-auto mt-20 mb-10 lg:items-center xl:gap-16 md:gap-12 md:flex-row max-w-7xl">
-        <img src={require('../assets/doll.png')} className="flex-1 xl:w-[588px] lg:w-[460px] md:w-[340px] w-full rounded-3xl" alt='Rag doll'></img>
+        <div className='relative flex justify-center items-center mt-9 md:mt-0 xl:w-[588px] lg:w-[460px] md:w-[340px] w-full rounded-3xl'>
+          <video autoPlay playsInline muted loop preload="true" poster={require('../assets/doll.png')} className='flex-1 xl:w-[588px] lg:w-[460px] md:w-[340px] w-full rounded-3xl'>
+            <source src={require('../assets/animation.mp4')} />
+            <source src={require('../assets/animation.webm')} />
+          </video>
+        </div>
         <div className="flex-1">
           <h4 className="mb-2 lg:mb-3 xl:mb-4 xl:text-[32px] lg:text-xl text-[#F03E3E] font-semibold text-base">Our Philosophy</h4>
           <h3 className="text-[#212529] font-semibold xl:text-5xl lg:text-[34px] text-xl xl:mb-12 lg:mb-6 mb-4">Hardwork, creativity,
